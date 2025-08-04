@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/importador-sig-page/static/css/main.41215f20.css",
-    "main.js": "/importador-sig-page/static/js/main.5d8030d8.js",
+    "main.js": "/importador-sig-page/static/js/main.8693af66.js",
     "static/js/453.8601dfd8.chunk.js": "/importador-sig-page/static/js/453.8601dfd8.chunk.js",
     "index.html": "/importador-sig-page/index.html",
     "main.41215f20.css.map": "/importador-sig-page/static/css/main.41215f20.css.map",
-    "main.5d8030d8.js.map": "/importador-sig-page/static/js/main.5d8030d8.js.map",
+    "main.8693af66.js.map": "/importador-sig-page/static/js/main.8693af66.js.map",
     "453.8601dfd8.chunk.js.map": "/importador-sig-page/static/js/453.8601dfd8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41215f20.css",
-    "static/js/main.5d8030d8.js"
+    "static/js/main.8693af66.js"
   ]
 }

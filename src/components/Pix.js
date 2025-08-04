@@ -14,8 +14,8 @@ function Pix({ textoBotao = "Gerar Pix" }) {
       if (data.pago) {
         console.log(data);
         clearInterval(interval);
-        setRedirecting(true);
-        window.location.href = data.link;
+        //setRedirecting(true);
+        //window.location.href = data.link;
       }
     }, 5000);
     return () => clearInterval(interval);
