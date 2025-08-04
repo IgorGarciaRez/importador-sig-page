@@ -11,7 +11,7 @@ function Home() {
                         mapeia seus horários de aula para um formato compatível com o Google Calendar! Assim, sua organização
                         de horários fica mais fácil e rápida!
                     </p>
-                    <img src="import.png" alt="import" width="100%"></img>
+                    <img src={process.env.PUBLIC_URL + "/import.png"} alt="import" width="100%"></img>
                     <h3 className='mb-4'>E tudo isso por apenas <span style={{ color: "#0d6efd" }}>R$4,00</span>!</h3>
                     <Pix textoBotao="Obter Extensão" />
                 </div>
