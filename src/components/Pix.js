@@ -12,10 +12,10 @@ function Pix({ textoBotao = "Gerar Pix" }) {
       const res = await fetch(`https://igorgarciarezgithubio-production.up.railway.app/status/${txid}`);
       const data = await res.json();
       if (data.pago) {
-        console.log(data.link);
-        //clearInterval(interval);
-        //setRedirecting(true);
-        //window.location.href = data.link;
+        //console.log(data.link);
+        clearInterval(interval);
+        setRedirecting(true);
+        window.location.href = data.link;
       }
     }, 5000);
     return () => clearInterval(interval);
