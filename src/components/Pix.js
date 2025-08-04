@@ -13,7 +13,7 @@ function Pix({ textoBotao = "Gerar Pix" }) {
       const data = await res.json();
       if (data.pago) {
         console.log(data);
-        clearInterval(interval);
+        //clearInterval(interval);
         //setRedirecting(true);
         //window.location.href = data.link;
       }
